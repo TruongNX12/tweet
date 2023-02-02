@@ -56,7 +56,7 @@ function handleTweetBtnClick(){
     if(tweetInput.value){
         tweetsData.unshift({
             handle: `@Sky`,
-            profilePic: `clear-sky.png`,
+            profilePic: `./public/clear-sky.png`,
             likes: 0,
             retweets: 0,
             tweetText: tweetInput.value,
